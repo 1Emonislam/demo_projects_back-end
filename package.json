@@ -1,10 +1,14 @@
 {
   "name": "back-end-demo-project",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=16<18"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "1emonislam",
